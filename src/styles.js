@@ -182,7 +182,7 @@ export const styles = StyleSheet.create({
   bottom: {
     position: "absolute",
     bottom: 0,
-    left:0,
+    // left:10,
   },
   progress: {
     zIndex: 1,
@@ -194,7 +194,6 @@ export const styles = StyleSheet.create({
     position: "absolute",
     top: 0,
     left: 0,
-    maxWidth:"98%"
   },
   activeBackground: {
     position: "absolute",

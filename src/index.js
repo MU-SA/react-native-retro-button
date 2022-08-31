@@ -160,7 +160,7 @@ export default class Button extends React.Component {
               outputRange: [0, this.props.raiseLevel],
             }),
           },
-
+          
         ],
       },
       animatedActive: {
@@ -459,7 +459,7 @@ export default class Button extends React.Component {
           />
           <View
             testID="aws-btn-bottom"
-            style={[styles.bottom, dynamicStyles.bottom,]}
+            style={[styles.bottom, dynamicStyles.bottom,{left:this.props.raiseLevel}]}
           />
           <Animated.View
             testID="aws-btn-content"
