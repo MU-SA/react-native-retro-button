@@ -1,21 +1,21 @@
 {
-  "name": "react-native-really-awesome-button",
+  "name": "react-native-retro-button",
   "version": "1.6.0",
   "description": "ReactNative performant component that renders an 60fps animated set of progress enabled 3D UI buttons.",
   "main": "src/index.js",
   "typings": "./index.d.ts",
   "author": "Rafael Caferati",
   "license": "MIT",
-  "homepage": "https://github.com/rcaferati/react-native-really-awesome-button",
+  "homepage": "https://github.com/rcaferati/react-native-retro-button",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rcaferati/react-native-really-awesome-button"
+    "url": "https://github.com/rcaferati/react-native-retro-button"
   },
   "bugs": {
-    "url": "https://github.com/rcaferati/react-native-really-awesome-button/issues"
+    "url": "https://github.com/rcaferati/react-native-retro-button/issues"
   },
   "keywords": [
     "button",
@@ -29,8 +29,9 @@
     "android"
   ],
   "peerDependencies": {
+    "prop-types": ">=15.5.7",
     "react-native": ">=0.43.0",
-    "prop-types": ">=15.5.7"
+    "deprecated-react-native-prop-types": "^2.3.0"
   },
   "devDependencies": {
     "babel-jest": "23.4.2",
@@ -45,5 +46,7 @@
     "testPathIgnorePatterns": [
       "/demo/"
     ]
+  },
+  "dependencies": {
   }
 }

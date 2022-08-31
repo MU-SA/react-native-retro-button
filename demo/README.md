@@ -1,6 +1,6 @@
 # &lt;AwesomeButton /&gt; Demo Application
 
-<img alt='iPhoneX Demo App' width="250" src='https://github.com/rcaferati/react-native-really-awesome-button/blob/master/demo/iphoneX.png?raw=true' />
+<img alt='iPhoneX Demo App' width="250" src='https://github.com/rcaferati/react-native-retro-button/blob/master/demo/iphoneX.png?raw=true' />
 
 ### Install react-community/create-react-native-app
 

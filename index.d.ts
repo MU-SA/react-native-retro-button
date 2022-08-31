@@ -1,9 +1,9 @@
-// Type definitions for react-native-really-awesome-button
-// Project: https://github.com/rcaferati/react-native-really-awesome-button
+// Type definitions for react-native-retro-button
+// Project: https://github.com/rcaferati/react-native-retro-button
 // Definitions by: Rafael Caferati <https://github.com/rcaferati>
 // TypeScript Version: 3.0.0
 
-declare module "react-native-really-awesome-button" {
+declare module "react-native-retro-button" {
   import React, { Component } from "react";
   import { ViewStyle } from "react-native";
 

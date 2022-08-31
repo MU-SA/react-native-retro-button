@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "React Native Awesome Button Component",
-    "slug": "react-native-really-awesome-button",
+    "slug": "react-native-retro-button",
     "privacy": "public",
     "sdkVersion": "33.0.0",
     "platforms": ["ios", "android"],
@@ -20,7 +20,7 @@
     "ios": {
       "supportsTablet": false
     },
-    "description": "React Native button component. 3D at 60fps, progress enabled, social ready, extendable, production ready component that renders an awesome animated set of UI buttons. Source @ https://github.com/rcaferati/react-native-really-awesome-button Author @ https://caferati.me",
-    "githubUrl": "https://github.com/rcaferati/react-native-really-awesome-button"
+    "description": "React Native button component. 3D at 60fps, progress enabled, social ready, extendable, production ready component that renders an awesome animated set of UI buttons. Source @ https://github.com/rcaferati/react-native-retro-button Author @ https://caferati.me",
+    "githubUrl": "https://github.com/rcaferati/react-native-retro-button"
   }
 }

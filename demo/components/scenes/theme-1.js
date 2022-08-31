@@ -1,5 +1,5 @@
 import React from "react";
-import AwesomeButton from "react-native-really-awesome-button/src/themes/c137";
+import AwesomeButton from "react-native-retro-button/src/themes/c137";
 // import AwesomeButton from "../../src/themes/c137";
 import Example from "../example";
 

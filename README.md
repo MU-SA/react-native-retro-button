@@ -1,12 +1,12 @@
 # React Native &lt;AwesomeButton /&gt;
 
-[![Travis](https://img.shields.io/travis/rcaferati/react-native-really-awesome-button/master.svg)](https://travis-ci.org/rcaferati/react-native-really-awesome-button) ![NPM](https://img.shields.io/npm/v/react-native-really-awesome-button.svg)
+[![Travis](https://img.shields.io/travis/rcaferati/react-native-retro-button/master.svg)](https://travis-ci.org/rcaferati/react-native-retro-button) ![NPM](https://img.shields.io/npm/v/react-native-retro-button.svg)
 
-`react-native-really-awesome-button` is a performant, extendable, production ready React Native component that renders an animated set of 3D UI buttons.
+`react-native-retro-button` is a performant, extendable, production ready React Native component that renders an animated set of 3D UI buttons.
 
-Run the <a target="_blank" title="Live Demo" href="https://expo.io/@rcaferati/react-native-really-awesome-button">live demo</a> @ expo.io.
+Run the <a target="_blank" title="Live Demo" href="https://expo.io/@rcaferati/react-native-retro-button">live demo</a> @ expo.io.
 
-| <img width="240" src='https://raw.githubusercontent.com/rcaferati/react-native-really-awesome-button/master/demo/demo-button-blue-new.gif?raw=true' />  | <img width="240" src='https://raw.githubusercontent.com/rcaferati/react-native-really-awesome-button/master/demo/demo-button-rick.gif?raw=true' />  | <img width="240" src='https://raw.githubusercontent.com/rcaferati/react-native-really-awesome-button/master/demo/demo-button-cartman.gif?raw=true' />  |
+| <img width="240" src='https://raw.githubusercontent.com/rcaferati/react-native-retro-button/master/demo/demo-button-blue-new.gif?raw=true' />  | <img width="240" src='https://raw.githubusercontent.com/rcaferati/react-native-retro-button/master/demo/demo-button-rick.gif?raw=true' />  | <img width="240" src='https://raw.githubusercontent.com/rcaferati/react-native-retro-button/master/demo/demo-button-cartman.gif?raw=true' />  |
 |---|---|---|
 
 
@@ -15,12 +15,12 @@ Run the <a target="_blank" title="Live Demo" href="https://expo.io/@rcaferati/re
 
 Import it directly into your [Figma](https://www.figma.com/file/Ug8sNPzmevU3ZQus9Klu5aHq/react-awesome-button-theme-blue) project.
 
-[<img src="https://github.com/rcaferati/react-native-really-awesome-button/blob/master/demo/figma.png?raw=true" width="800" />](https://www.figma.com/file/Ug8sNPzmevU3ZQus9Klu5aHq/react-awesome-button-theme-blue)
+[<img src="https://github.com/rcaferati/react-native-retro-button/blob/master/demo/figma.png?raw=true" width="800" />](https://www.figma.com/file/Ug8sNPzmevU3ZQus9Klu5aHq/react-awesome-button-theme-blue)
 
 ### Installation
 
 ```
-npm install --save react-native-really-awesome-button
+npm install --save react-native-retro-button
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ npm install --save react-native-really-awesome-button
 ### Basic
 
 ```jsx
-import AwesomeButton from "react-native-really-awesome-button";
+import AwesomeButton from "react-native-retro-button";
 
 function Button() {
   return <AwesomeButton>Text</AwesomeButton>;
@@ -38,7 +38,7 @@ function Button() {
 ### Progress
 
 ```jsx
-import AwesomeButton from "react-native-really-awesome-button";
+import AwesomeButton from "react-native-retro-button";
 
 function Button() {
   return (
@@ -58,7 +58,7 @@ function Button() {
 ### Custom Children
 
 ```jsx
-import AwesomeButton from "react-native-really-awesome-button";
+import AwesomeButton from "react-native-retro-button";
 
 function Button() {
   return (
@@ -73,7 +73,7 @@ function Button() {
 ### Importing a specific theme
 
 ```jsx
-  import AwesomeButtonRick from 'react-native-really-awesome-button/src/themes/rick';
+  import AwesomeButtonRick from 'react-native-retro-button/src/themes/rick';
 
   function Button() {
     return (
@@ -87,7 +87,7 @@ function Button() {
 You can use the `Extra Content` prop to render a component inside the button content body. This could be useful to render an image or gradient background
 
 ```jsx
-import AwesomeButton from "react-native-really-awesome-button";
+import AwesomeButton from "react-native-retro-button";
 import LinearGradient from "react-native-linear-gradient";
 
 function Button() {

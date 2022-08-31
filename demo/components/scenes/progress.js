@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, View, Text } from "react-native";
-import AwesomeButton from "react-native-really-awesome-button/src/themes/blue";
+import AwesomeButton from "react-native-retro-button/src/themes/blue";
 // import AwesomeButton from "../../src/themes/blue";
 import Container from "../container";
 import Section from "../section";
